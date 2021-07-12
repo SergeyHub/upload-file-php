@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    min-height: 1000px;
+    background-color: #fff;
+}
+
+p{
+    font-weight: 300;
+    color: #111;
+}
+
+.contact{
+    padding-top: 1px;
+    width: 50%;
+    max-height: 35vh;
+    margin-left: 150px;
+    margin-top: 50px;
+    background-color: #fff
+}
+
+.outputBox{
+    margin-left: 165px;
+    margin-top: 50px;
+    width: 650px;
+    height: 250px;
+    padding-top: 7px;
+    padding-left: 10px;
+}
+
+.successMessage,
+.errorMessage{
+    margin-left: 165px;
+    margin-top: 50px;
+    padding-top: 9px;
+    padding-left: 10px;
+    width: 650px;
+    height: 70px;
+    font-weight: 600;
+}
+.successMessage{
+    color: #049905;
+}
+.errorMessage{
+    color: #ff0000;
+}
+
+.contactForm{
+    margin-top: 5px;
+    margin-left: 15px;
+    /*padding: 15px 15px;*/
+    background-color: #fff;
+    max-height: 200px;
+    max-width: 650px;
+    /*position: relative;*/
+}
+
+.contactForm .inputBox{
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.contact__titleText{
+    font-size: 3em;
+    font-weight: 600;
+    color: #000000;
+    text-align: center;
+}
+
+.contact__titleText span{
+    font-size: 2em;
+    font-weight: 600;
+    color: #ffc107;
+}
+
+.copyrightText p{
+    margin-top: 150px;
+    color: #f7f7f7;
+}
+
+.contactForm .inputBox input{
+    width: 100%;
+    border: 1px solid #555;
+    padding: 10px;
+    color: #000;
+    outline: none;
+    font-size: 17px;
+    font-weight: 300;
+    resize: none;
+    opacity: 100%;
+}
+
+.contactForm .inputBox input[type="submit"]{
+    font-size: 1em;
+    color: #000;
+    background-color: #ffc107;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s ease;
+    max-width: 150px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+
+}
+
+.contactForm .inputBox input[type="submit"]:hover{
+    letter-spacing: 7px;
+}
